@@ -19,3 +19,4 @@ class Supplier(models.Model):
     name = models.CharField(max_length=150)
     adress = models.CharField(max_length=200)
     phone_number = models.CharField(max_length=12)
+
